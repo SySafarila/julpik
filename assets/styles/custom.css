@@ -1,6 +1,13 @@
+:root {
+    --text-color-base: #fff;
+    --text-color-muted: #797979;
+    --text-color-pink: #FF2FB8;
+    --border-color-base: #303030;
+}
+
 body {
     background: #191919;
-    color: white;
+    color: var(--text-color-base);
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -10,17 +17,17 @@ body {
 }
 
 #navbar a {
-    color: #555555;
+    color: var(--text-color-muted);
 }
 
 #navbar a.active {
-    color: #FF2FB8;
+    color: var(--text-color-pink);
 }
 
 .btn-custom {
     border: solid 1px white;
     padding: 0.5rem 1rem;
-    color: white !important;
+    color: var(--text-color-base) !important;
     background: transparent;
     width: fit-content;
 }
@@ -44,7 +51,7 @@ body {
 
 #hero #arrow {
     bottom: 0;
-    color: #797979;
+    color: var(--text-color-muted);
     cursor: default;
 }
 
@@ -58,7 +65,7 @@ body {
 }
 
 #introduction hr {
-    border-color: #303030;
+    border-color: var(--border-color-base);
 }
 
 #introduction #detail {
