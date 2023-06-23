@@ -165,6 +165,18 @@ hr {
     font-size: 32px;
 }
 
+footer a {
+    color: var(--text-color-muted);
+}
+
+footer #copyright {
+    color: var(--text-color-muted);
+}
+
+footer a:hover {
+    color: var(--text-color-base);
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     #hero {
