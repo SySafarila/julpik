@@ -1,0 +1,57 @@
+body {
+    background: #191919;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#navbar a {
+    color: #555555;
+}
+
+#navbar a.active {
+    color: #FF2FB8;
+}
+
+.btn-custom {
+    border: solid 1px white;
+    padding: 0.5rem 1rem;
+    color: white !important;
+    background: transparent;
+    width: fit-content;
+}
+
+#hero {
+    background: url("../images/bg-landing.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 908px; */
+    height: 100vh;
+    margin-top: -61px;
+    padding-top: 61px;
+}
+
+#hero img {
+    /* width: 645px; */
+    width: 100%;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #hero {
+        height: 908px;
+    }
+
+    #hero img {
+        width: 645px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /*  */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /*  */
+}
