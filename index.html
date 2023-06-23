@@ -28,7 +28,7 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-transparent container" id="navbar" style="z-index: 1;">
         <a class="navbar-brand d-block d-md-none" href="#">
-            <img src="./assets/images/logo.svg" alt="logo" style="width: 63px; height: 34px;">
+            <img src="./assets/images/logo.svg" alt="logo">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,7 @@
         </button>
         <div class="collapse justify-content-between navbar-collapse" id="navbarNavAltMarkup">
             <a class="d-md-block d-none navbar-brand" href="#">
-                <img src="./assets/images/logo.svg" alt="logo" style="width: 63px; height: 34px;">
+                <img src="./assets/images/logo.svg" alt="logo">
             </a>
             <div class="navbar-nav">
                 <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
@@ -53,26 +53,25 @@
     <div class="align-items-center d-flex justify-content-center position-relative" id="hero">
         <div class="container">
             <div class="align-items-center d-flex flex-column">
-                <p class="text-center" style="font-size: 40px;">Hello There I’m</p>
+                <p class="text-center">Hello There I’m</p>
                 <img src="./assets/images/hero.svg" alt="">
             </div>
         </div>
-        <span class="material-icons-outlined position-absolute" style="bottom: 0;color: #797979; cursor: default;">
+        <span class="material-icons-outlined position-absolute" id="arrow">
             arrow_downward
         </span>
     </div>
 
     <div id="introduction" class="container my-5">
-        <hr style="border-color: #303030;" class="mb-5">
+        <hr class="mb-5">
         <div class="row">
-            <p class="col-12 col-lg-3 col-md-5 d-flex flex-md-column flex-row flex-wrap"
-                style="font-size: 32px;font-weight: 600;">
-                <span style="flex-shrink: 0;">Hello There</span>
-                <span style="flex-shrink: 0;">I’m Julpik</span>
-                <span style="flex-shrink: 0;">and i'm a</span>
-                <span style="flex-shrink: 0;">Type Designer.</span>
+            <p class="col-12 col-lg-3 col-md-5 d-flex flex-md-column flex-row flex-wrap" id="hello">
+                <span>Hello There</span>
+                <span>I’m Julpik</span>
+                <span>and i'm a</span>
+                <span>Type Designer.</span>
             </p>
-            <p class="col-12 col-lg-5 col-md" style="color: #797979;font-size: 26px;">I'm a Type designer with more than
+            <p class="col-12 col-lg-5 col-md" id="detail">I'm a Type designer with more than
                 6
                 years of experience
                 and doing
@@ -82,7 +81,7 @@
                 <img src="./assets/images/intro.png" alt="intro" class="w-100">
                 <a href="#"
                     class="align-items-center border d-flex flex-column justify-content-center position-absolute rounded-circle text-white"
-                    style="height: 116px;aspect-ratio: 1/1;bottom: -4rem;left: -1rem;rotate: 24deg;">
+                    id="more">
                     <span>More</span>
                     <span>About</span>
                     <span>Me</span>

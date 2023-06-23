@@ -4,6 +4,11 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+#navbar img {
+    width: 63px;
+    height: 34px;
+}
+
 #navbar a {
     color: #555555;
 }
@@ -24,15 +29,49 @@ body {
     background: url("../images/bg-landing.svg");
     background-repeat: no-repeat;
     background-position: center;
-    /* height: 908px; */
     height: 100vh;
     margin-top: -61px;
     padding-top: 61px;
 }
 
 #hero img {
-    /* width: 645px; */
     width: 100%;
+}
+
+#hero p {
+    font-size: 40px;
+}
+
+#hero #arrow {
+    bottom: 0;
+    color: #797979;
+    cursor: default;
+}
+
+#introduction #hello {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#introduction #hello span {
+    flex-shrink: 0;
+}
+
+#introduction hr {
+    border-color: #303030;
+}
+
+#introduction #detail {
+    color: #797979;
+    font-size: 26px;
+}
+
+#introduction #more {
+    height: 116px;
+    aspect-ratio: 1/1;
+    bottom: -4rem;
+    left: -1rem;
+    rotate: 24deg;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -48,10 +87,14 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    /*  */
+    #introduction #more {
+        bottom: -1rem;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    /*  */
+    #introduction #more {
+        bottom: -4rem;
+    }
 }
